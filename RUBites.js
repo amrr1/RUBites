@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require('dotenv').config()
 const config = {
   mongoUrl: process.env.MONGO_URL,
@@ -212,3 +213,6 @@ app.on('db-connected', () => {
 app.listen(3000, () => {
   console.log('App listening at http://localhost:3000')
 })
+=======
+
+>>>>>>> 5b712f33416973b2b30780d9088599ae51084e43
